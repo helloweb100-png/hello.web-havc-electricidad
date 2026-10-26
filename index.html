@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <!-- Estado JS + salvaguarda: si app.js no corre, se quitan todos los estados "ocultos" -->
+    <script>
+        (function (d) {
+            d.className = 'js';
+            setTimeout(function () {
+                if (!window.__ingrOK) { d.className = 'no-js'; }
+                d.classList.add('is-ready');
+            }, 9000);
+        })(document.documentElement);
+    </script>
+
+    <!-- ═══════ SEO ═══════ -->
+    <title>INGRHVAC Monterrey | Refrigeración, aire acondicionado y cuartos fríos</title>
+    <meta name="description" content="Venta y reparación de refrigeración y aire acondicionado en Monterrey: VRF, chillers, cuartos fríos y cajas refrigeradas. Cursos en línea para técnicos HVAC.">
+    <meta name="keywords" content="refrigeración Monterrey, aire acondicionado Monterrey, VRF, Fan & Coil, chillers, cuartos fríos, cajas refrigeradas, reparación de refrigeradores, cursos HVAC, electrónica inverter">
+    <meta name="author" content="INGRHVAC Monterrey">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="geo.region" content="MX-NLE">
+    <meta name="geo.placename" content="Monterrey, Nuevo León">
+    <meta name="theme-color" content="#F3F7FB">
+    <link rel="canonical" href="https://ingrhvacmonterrey.com.mx/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:site_name" content="INGRHVAC Monterrey">
+    <meta property="og:title" content="INGRHVAC Monterrey | Que tu frío nunca pare">
+    <meta property="og:description" content="Refrigeración, aire acondicionado, cuartos fríos y cajas refrigeradas. Venta, reparación y capacitación técnica en línea.">
+    <meta property="og:url" content="https://ingrhvacmonterrey.com.mx/">
+    <meta property="og:image" content="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon: aspa de ventilador (mismo símbolo del logotipo) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%230B63D6'/%3E%3Cg fill='%23F3F7FB'%3E%3Cellipse cx='24' cy='13' rx='6' ry='10'/%3E%3Cellipse cx='24' cy='13' rx='6' ry='10' transform='rotate(120 24 24)'/%3E%3Cellipse cx='24' cy='13' rx='6' ry='10' transform='rotate(240 24 24)'/%3E%3C/g%3E%3Ccircle cx='24' cy='24' r='4.5' fill='%230B63D6'/%3E%3C/svg%3E">
+
+    <!-- Rendimiento -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.pexels.com" crossorigin>
+    <link rel="preload" as="image" href="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024"
+          imagesrcset="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w"
+          imagesizes="(min-width: 960px) 40vw, 80vw">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=Geist:wght@300..700&amp;family=Geist+Mono:wght@400..500&amp;display=swap" rel="stylesheet">
+    <!-- Iconos Phosphor (una sola familia en toda la página) -->
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Datos estructurados -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "HVACBusiness",
+          "@id": "https://ingrhvacmonterrey.com.mx/#negocio",
+          "name": "INGRHVAC Monterrey",
+          "url": "https://ingrhvacmonterrey.com.mx/",
+          "email": "ingr_havac_mty@ingrhvacmonterrey.com.mx",
+          "description": "Venta y reparación de refrigeración y aire acondicionado comercial e industrial, cuartos fríos, cajas refrigeradas para camionetas y camiones, y capacitación técnica en línea.",
+          "image": "https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "address": { "@type": "PostalAddress", "addressLocality": "Monterrey", "addressRegion": "Nuevo León", "addressCountry": "MX" },
+          "areaServed": { "@type": "City", "name": "Monterrey" },
+          "knowsAbout": ["Refrigeración comercial e industrial", "Aire acondicionado VRF", "Fan & Coil", "Chillers", "Cuartos fríos", "Refrigeración de transporte", "Electrónica inverter", "Electricidad"]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            { "@type": "Question", "name": "¿Qué sistemas de aire acondicionado venden y reparan?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Trabajamos con sistemas VRF, Fan & Coil, centrales y enfriadores de agua (chillers), además de equipos para casa y comercio." } },
+            { "@type": "Question", "name": "¿Atienden refrigeración para restaurantes y negocios?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Sí. Vendemos y reparamos refrigeradores para hogar, restaurantes y uso industrial." } },
+            { "@type": "Question", "name": "¿Reparan equipos de frío para camionetas y camiones?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Sí. Vendemos y reparamos equipos de refrigeración para cajas de camionetas y camiones de diversas marcas." } },
+            { "@type": "Question", "name": "¿Cómo pido una cotización?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Llena el formulario o escríbenos por WhatsApp con el equipo, la marca y lo que necesitas. Te respondemos con una propuesta." } },
+            { "@type": "Question", "name": "¿Los cursos para técnicos son en línea?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Sí. Impartimos clases de actualización en línea para técnicos de HVAC, electrónica y electricidad." } },
+            { "@type": "Question", "name": "¿Dónde están ubicados?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Estamos en Monterrey, Nuevo León. Escríbenos con tu ubicación y coordinamos la atención." } }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+
+<body>
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+
+    <!-- Símbolo de marca reutilizable (aspa de ventilador) -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+        <symbol id="mark" viewBox="0 0 48 48">
+            <rect width="48" height="48" rx="12" fill="var(--accent)"/>
+            <g class="mark__blades" fill="#F3F7FB">
+                <ellipse cx="24" cy="13" rx="6" ry="10"/>
+                <ellipse cx="24" cy="13" rx="6" ry="10" transform="rotate(120 24 24)"/>
+                <ellipse cx="24" cy="13" rx="6" ry="10" transform="rotate(240 24 24)"/>
+            </g>
+            <circle cx="24" cy="24" r="4.5" fill="var(--accent)"/>
+        </symbol>
+    </svg>
+
+    <!-- ═══════ LOADER ═══════ -->
+    <div id="loader" role="status" aria-live="polite" aria-label="Cargando el sitio">
+        <div class="loader__slats" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="loader__core">
+            <div class="loader__gauge" aria-hidden="true">
+                <svg class="loader__ring" viewBox="0 0 220 220">
+                    <g class="loader__ticks"></g>
+                    <circle class="loader__track" cx="110" cy="110" r="84"/>
+                    <circle class="loader__fill" cx="110" cy="110" r="84" pathLength="100"/>
+                </svg>
+                <svg class="loader__mark" viewBox="0 0 48 48" width="64" height="64">
+                    <rect width="48" height="48" rx="12" fill="#0B63D6"/>
+                    <g class="loader__blades" fill="#F3F7FB">
+                        <ellipse cx="24" cy="13" rx="6" ry="10"/>
+                        <ellipse cx="24" cy="13" rx="6" ry="10" transform="rotate(120 24 24)"/>
+                        <ellipse cx="24" cy="13" rx="6" ry="10" transform="rotate(240 24 24)"/>
+                    </g>
+                    <circle cx="24" cy="24" r="4.5" fill="#0B63D6"/>
+                </svg>
+            </div>
+            <p class="loader__temp"><span id="ld-temp">38</span><sup>°C</sup></p>
+            <p class="loader__msg">Climatizando tu experiencia</p>
+        </div>
+    </div>
+
+    <!-- ═══════ NAVEGACIÓN ═══════ -->
+    <header class="nav" id="nav">
+        <div class="nav__bar">
+            <a class="brand" href="#inicio" aria-label="INGRHVAC Monterrey, ir al inicio">
+                <svg class="brand__mark" width="36" height="36" aria-hidden="true"><use href="#mark"/></svg>
+                <span class="wordmark"><b>INGR</b>HVAC<small>Monterrey</small></span>
+            </a>
+            <nav class="nav__links" aria-label="Principal">
+                <a href="#servicios">Servicios</a>
+                <a href="#ciclo">Cómo funciona</a>
+                <a href="#sectores">Sectores</a>
+                <a href="#cursos">Capacitación</a>
+                <a href="#faq">Preguntas</a>
+            </nav>
+            <a class="btn btn--primary btn--sm nav__cta" data-wa="general" href="#contacto">
+                <i class="ph ph-whatsapp-logo" aria-hidden="true"></i><span>Escríbenos</span>
+            </a>
+            <button class="burger" id="burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+                <span></span><span></span>
+            </button>
+        </div>
+        <div class="progress" aria-hidden="true"><i></i></div>
+    </header>
+
+    <!-- Menú móvil -->
+    <div class="menu" id="menu" aria-hidden="true">
+        <nav class="menu__nav" aria-label="Menú móvil">
+            <a href="#servicios"><span>Servicios</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+            <a href="#ciclo"><span>Cómo funciona</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+            <a href="#sectores"><span>Sectores</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+            <a href="#cursos"><span>Capacitación</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+            <a href="#faq"><span>Preguntas</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+            <a href="#contacto"><span>Contacto</span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+        </nav>
+        <div class="menu__foot">
+            <a class="btn btn--primary btn--lg" data-wa="general" href="#contacto">
+                <i class="ph ph-whatsapp-logo" aria-hidden="true"></i><span>Hablemos por WhatsApp</span>
+            </a>
+            <p>ingr_havac_mty@ingrhvacmonterrey.com.mx</p>
+        </div>
+    </div>
+
+    <main id="contenido">
+
+        <!-- ═══════ HERO ═══════ -->
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+            <canvas class="hero__field" aria-hidden="true"></canvas>
+            <div class="hero__grid wrap">
+                <div class="hero__copy">
+                    <p class="eyebrow hero__in" style="--i:0">Refrigeración y clima en Monterrey</p>
+                    <h1 class="hero__title" id="hero-title">
+                        <span class="line"><span class="line__in" style="--i:1">Que tu frío</span></span>
+                        <span class="line"><span class="line__in" style="--i:2"><em class="accent">nunca pare.</em></span></span>
+                    </h1>
+                    <p class="hero__sub hero__in" style="--i:3">Venta y reparación de refrigeración y aire acondicionado, del hogar a la industria. También formamos técnicos HVAC.</p>
+                    <div class="hero__ctas hero__in" style="--i:4">
+                        <a class="btn btn--primary btn--lg" href="#contacto" data-magnetic>
+                            <span>Quiero mi cotización</span><i class="ph ph-arrow-right" aria-hidden="true"></i>
+                        </a>
+                        <a class="btn btn--ghost btn--lg" href="#servicios">
+                            <span>Ver lo que hacemos</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero__visual hero__in" style="--i:2">
+                    <svg class="dial" viewBox="0 0 600 600" aria-hidden="true" focusable="false">
+                        <g class="dial__spin"><g class="dial__ticks"></g></g>
+                        <circle class="dial__ring" cx="300" cy="300" r="232"/>
+                        <circle class="dial__ring dial__ring--inner" cx="300" cy="300" r="196"/>
+                        <g class="dial__orbit"><circle cx="300" cy="68" r="7"/></g>
+                    </svg>
+                    <figure class="arch">
+                        <img src="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024"
+                             srcset="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w"
+                             sizes="(min-width: 960px) 40vw, 80vw"
+                             width="1600" height="1137" fetchpriority="high" decoding="async"
+                             alt="Técnico HVAC revisando la presión de refrigerante de una unidad condensadora con manómetros">
+                    </figure>
+                    <div class="dial__read" aria-hidden="true">
+                        <span id="dial-temp">21.0</span><sup>°C</sup>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════ FRANJA DE SISTEMAS (único marquee) ═══════ -->
+        <section class="strip" aria-label="Sistemas y servicios">
+            <div class="strip__track" aria-hidden="true">
+                <ul class="strip__list">
+                    <li>VRF</li><li class="alt">Fan &amp; Coil</li><li>Centrales</li><li class="alt">Chillers</li>
+                    <li>Cuartos fríos</li><li class="alt">Cajas refrigeradas</li><li>Refrigeración comercial</li>
+                    <li class="alt">Electrónica inverter</li><li>Electricidad</li><li class="alt">Cursos en línea</li>
+                </ul>
+            </div>
+            <p class="sr-only">Sistemas VRF, Fan &amp; Coil, centrales y chillers. Cuartos fríos, cajas refrigeradas, refrigeración comercial, electrónica inverter, electricidad y cursos en línea.</p>
+        </section>
+
+        <!-- ═══════ MANIFIESTO (relleno palabra por palabra al hacer scroll) ═══════ -->
+        <section class="manifesto" aria-label="Quiénes somos">
+            <div class="wrap">
+                <p class="manifesto__text" data-words>Un restaurante, una bodega o un camión de reparto no pueden esperar a que el frío falle. Por eso vendemos y reparamos equipos con precisión de ingeniería, y capacitamos a los técnicos que los mantienen vivos.</p>
+            </div>
+        </section>
+
+        <!-- ═══════ IMAGEN QUE SE EXPANDE (pin + scrub) ═══════ -->
+        <section class="xp" id="sistemas" aria-labelledby="xp-title">
+            <div class="xp__pin">
+                <div class="xp__words" aria-hidden="true">
+                    <span class="xp__w xp__w--l">Hogar</span>
+                    <span class="xp__w xp__w--r">Industria</span>
+                </div>
+                <figure class="xp__frame">
+                    <img src="https://images.pexels.com/photos/37913513/pexels-photo-37913513.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600"
+                         srcset="https://images.pexels.com/photos/37913513/pexels-photo-37913513.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/37913513/pexels-photo-37913513.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w"
+                         sizes="100vw" width="1600" height="1067" loading="lazy" decoding="async"
+                         alt="Central de enfriadores industriales en una azotea, con tubería de agua helada entre dos filas de equipos">
+                    <span class="xp__scrim"></span>
+                </figure>
+                <div class="xp__copy">
+                    <h2 id="xp-title">Del minisplit a la central de agua helada</h2>
+                    <p>Sistemas VRF, Fan &amp; Coil, centrales y chillers para que cada espacio tenga el clima exacto que necesita.</p>
+                    <ul class="chips chips--light">
+                        <li>VRF</li><li>Fan &amp; Coil</li><li>Centrales</li><li>Chillers</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════ CICLO DE REFRIGERACIÓN (sticky + scroll) ═══════ -->
+        <section class="cycle" id="ciclo" aria-labelledby="cycle-title">
+            <div class="wrap cycle__grid">
+                <div class="cycle__steps">
+                    <header class="sec-head">
+                        <p class="eyebrow" data-reveal>El ciclo de refrigeración</p>
+                        <h2 id="cycle-title" data-split>Así viaja el frío dentro de tu equipo</h2>
+                        <p class="lead" data-reveal>Cuatro componentes y un solo ciclo. Dominarlo es lo que nos permite diagnosticar con criterio.</p>
+                    </header>
+                    <ol class="steps">
+                        <li class="step" data-step="0">
+                            <span class="step__ic"><i class="ph ph-gauge" aria-hidden="true"></i></span>
+                            <div>
+                                <h3>Compresor</h3>
+                                <p>Eleva la presión del refrigerante y lo impulsa por todo el circuito. Es el corazón de cualquier sistema.</p>
+                            </div>
+                        </li>
+                        <li class="step" data-step="1">
+                            <span class="step__ic"><i class="ph ph-fan" aria-hidden="true"></i></span>
+                            <div>
+                                <h3>Condensador</h3>
+                                <p>Expulsa el calor hacia el exterior y convierte el gas caliente en líquido.</p>
+                            </div>
+                        </li>
+                        <li class="step" data-step="2">
+                            <span class="step__ic"><i class="ph ph-funnel" aria-hidden="true"></i></span>
+                            <div>
+                                <h3>Válvula de expansión</h3>
+                                <p>Baja la presión de golpe. El refrigerante se enfría y queda listo para absorber calor.</p>
+                            </div>
+                        </li>
+                        <li class="step" data-step="3">
+                            <span class="step__ic"><i class="ph ph-snowflake" aria-hidden="true"></i></span>
+                            <div>
+                                <h3>Evaporador</h3>
+                                <p>Toma el calor del espacio que quieres enfriar y regresa al compresor para empezar otra vez.</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="cycle__visual">
+                    <div class="cycle__sticky">
+                        <svg class="cycle__svg" viewBox="0 0 640 560" data-active="0" role="img"
+                             aria-label="Diagrama del ciclo de refrigeración: compresor, condensador, válvula de expansión y evaporador conectados en un circuito cerrado">
+                            <defs>
+                                <pattern id="bp" width="32" height="32" patternUnits="userSpaceOnUse">
+                                    <path d="M32 0H0V32" fill="none" stroke="currentColor" stroke-width=".6"/>
+                                </pattern>
+                            </defs>
+                            <rect class="cy-bg" x="0" y="0" width="640" height="560" rx="22"/>
+                            <rect class="cy-grid" x="0" y="0" width="640" height="560" rx="22" fill="url(#bp)"/>
+
+                            <!-- Tuberías: lado de alta (calor) y lado de baja (frío) -->
+                            <g class="cy-pipes">
+                                <path class="pipe-track" d="M560 228V112H490"/>
+                                <path class="pipe-track" d="M150 112H80V258"/>
+                                <path class="pipe-track" d="M80 302V448H150"/>
+                                <path class="pipe-track" d="M490 448H560V332"/>
+
+                                <path class="pipe pipe--hot" d="M560 228V112H490"/>
+                                <path class="pipe pipe--hot" d="M150 112H80V258"/>
+                                <path class="pipe pipe--cold" d="M80 302V448H150"/>
+                                <path class="pipe pipe--cold" d="M490 448H560V332"/>
+
+                                <path class="flow flow--hot" d="M560 228V112H490"/>
+                                <path class="flow flow--hot" d="M150 112H80V258"/>
+                                <path class="flow flow--cold" d="M80 302V448H150"/>
+                                <path class="flow flow--cold" d="M490 448H560V332"/>
+                            </g>
+
+                            <!-- Condensador -->
+                            <g class="cy-comp" data-c="1">
+                                <rect class="body" x="150" y="70" width="340" height="84" rx="14"/>
+                                <path class="coil coil--hot" d="M490 112H470L452 88L428 136L404 88L380 136L356 88L332 136L308 88L284 136L260 88L236 136L212 88L190 124L170 112H150"/>
+                                <path class="flow flow--hot" d="M490 112H470L452 88L428 136L404 88L380 136L356 88L332 136L308 88L284 136L260 88L236 136L212 88L190 124L170 112H150"/>
+                                <g class="fan" transform="translate(320 36)">
+                                    <circle r="21" class="fan__ring"/>
+                                    <g class="fan__spin">
+                                        <ellipse cx="0" cy="-9" rx="4.5" ry="9"/>
+                                        <ellipse cx="0" cy="-9" rx="4.5" ry="9" transform="rotate(120)"/>
+                                        <ellipse cx="0" cy="-9" rx="4.5" ry="9" transform="rotate(240)"/>
+                                    </g>
+                                </g>
+                                <g class="heat heat--out">
+                                    <path d="M372 62l7-9 7 9"/><path d="M418 62l7-9 7 9"/>
+                                    <path d="M464 62l7-9 7 9"/><path d="M262 62l7-9 7 9"/>
+                                </g>
+                                <text class="lbl" x="150" y="58">CONDENSADOR</text>
+                            </g>
+
+                            <!-- Evaporador -->
+                            <g class="cy-comp" data-c="3">
+                                <rect class="body" x="150" y="406" width="340" height="84" rx="14"/>
+                                <path class="coil coil--cold" d="M150 448H170L190 472L212 424L236 472L260 424L284 472L308 424L332 472L356 424L380 472L404 424L428 472L452 424L470 448H490"/>
+                                <path class="flow flow--cold" d="M150 448H170L190 472L212 424L236 472L260 424L284 472L308 424L332 472L356 424L380 472L404 424L428 472L452 424L470 448H490"/>
+                                <g class="heat heat--in">
+                                    <path d="M196 366l7 9 7-9"/><path d="M252 366l7 9 7-9"/><path d="M308 366l7 9 7-9"/>
+                                    <path d="M364 366l7 9 7-9"/><path d="M420 366l7 9 7-9"/>
+                                </g>
+                                <text class="lbl" x="150" y="516">EVAPORADOR</text>
+                            </g>
+
+                            <!-- Válvula de expansión -->
+                            <g class="cy-comp" data-c="2">
+                                <circle class="halo" cx="80" cy="280" r="40"/>
+                                <path class="body valve" d="M56 258L80 280L56 302Z"/>
+                                <path class="body valve" d="M104 258L80 280L104 302Z"/>
+                                <text class="lbl" x="122" y="276">VÁLVULA DE</text>
+                                <text class="lbl" x="122" y="294">EXPANSIÓN</text>
+                            </g>
+
+                            <!-- Compresor -->
+                            <g class="cy-comp" data-c="0">
+                                <circle class="halo" cx="560" cy="280" r="62"/>
+                                <circle class="body" cx="560" cy="280" r="52"/>
+                                <g transform="translate(560 280)">
+                                    <g class="rotor">
+                                        <path d="M0-30V30M-30 0H30M-21-21L21 21M21-21L-21 21"/>
+                                        <circle r="9"/>
+                                    </g>
+                                </g>
+                                <text class="lbl" x="488" y="285" text-anchor="end">COMPRESOR</text>
+                            </g>
+
+                            <text class="lbl lbl--hot" x="320" y="262" text-anchor="middle">LADO DE ALTA</text>
+                            <text class="lbl lbl--cold" x="320" y="304" text-anchor="middle">LADO DE BAJA</text>
+                        </svg>
+                        <p class="cycle__now" aria-hidden="true">Compresor</p>
+                        <ul class="legend">
+                            <li><i class="lg-sw lg-sw--hot"></i>Lado de alta presión, calor</li>
+                            <li><i class="lg-sw lg-sw--cold"></i>Lado de baja presión, frío</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════ SERVICIOS (bento) ═══════ -->
+        <section class="services" id="servicios" aria-labelledby="serv-title">
+            <div class="wrap">
+                <header class="sec-head sec-head--stack">
+                    <h2 id="serv-title" data-split>Frío, clima y energía bajo un mismo techo</h2>
+                    <p class="lead" data-reveal>Equipos nuevos, reparación especializada y soporte técnico para hogares, comercios e industria.</p>
+                </header>
+
+                <div class="bento" data-stagger>
+                    <article class="cell cell--ac" data-reveal>
+                        <figure class="cell__img">
+                            <img src="https://images.pexels.com/photos/30210086/pexels-photo-30210086.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024"
+                                 srcset="https://images.pexels.com/photos/30210086/pexels-photo-30210086.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/30210086/pexels-photo-30210086.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w, https://images.pexels.com/photos/30210086/pexels-photo-30210086.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w"
+                                 sizes="(min-width: 960px) 56vw, 92vw" width="1600" height="1067" loading="lazy" decoding="async"
+                                 alt="Unidades condensadoras de aire acondicionado montadas en un muro exterior">
+                        </figure>
+                        <div class="cell__body">
+                            <h3>Aire acondicionado</h3>
+                            <p>De un minisplit al edificio completo: VRF, Fan &amp; Coil, centrales y enfriadores de agua. Venta y reparación.</p>
+                            <ul class="chips"><li>VRF</li><li>Fan &amp; Coil</li><li>Centrales</li><li>Chillers</li></ul>
+                        </div>
+                        <a class="cell__go" href="#contacto" data-interest="Aire acondicionado" aria-label="Pedir informes de aire acondicionado"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                    </article>
+
+                    <article class="cell cell--ref" data-reveal>
+                        <i class="ph ph-thermometer-cold cell__bigicon" aria-hidden="true"></i>
+                        <div class="cell__body">
+                            <h3>Refrigeración</h3>
+                            <p>Refrigeradores para hogar, restaurantes e industria. Equipos nuevos y reparación especializada.</p>
+                        </div>
+                        <a class="cell__go" href="#contacto" data-interest="Refrigeración" aria-label="Pedir informes de refrigeración"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                    </article>
+
+                    <article class="cell cell--cold cell--photo" data-reveal>
+                        <figure class="cell__img cell__img--bg">
+                            <img src="https://images.pexels.com/photos/5953713/pexels-photo-5953713.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024"
+                                 srcset="https://images.pexels.com/photos/5953713/pexels-photo-5953713.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/5953713/pexels-photo-5953713.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w"
+                                 sizes="(min-width: 960px) 40vw, 92vw" width="1600" height="1067" loading="lazy" decoding="async"
+                                 alt="Cuarto frío blanco con carros de acero inoxidable, ductos y un evaporador suspendido del techo">
+                        </figure>
+                        <div class="cell__body">
+                            <h3>Cuartos fríos</h3>
+                            <p>Cámaras de refrigeración y congelación para conservar tu producto en condiciones exactas.</p>
+                        </div>
+                        <a class="cell__go" href="#contacto" data-interest="Cuarto frío" aria-label="Pedir informes de cuartos fríos"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                    </article>
+
+                    <article class="cell cell--truck cell--photo" data-reveal>
+                        <figure class="cell__img cell__img--bg">
+                            <img src="https://images.pexels.com/photos/27099094/pexels-photo-27099094.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024"
+                                 srcset="https://images.pexels.com/photos/27099094/pexels-photo-27099094.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/27099094/pexels-photo-27099094.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w"
+                                 sizes="(min-width: 960px) 40vw, 92vw" width="1600" height="1067" loading="lazy" decoding="async"
+                                 alt="Flota de cajas refrigeradas estacionadas con sus unidades de frío montadas al frente">
+                        </figure>
+                        <div class="cell__body">
+                            <h3>Cajas refrigeradas</h3>
+                            <p>Equipos de frío para cajas de camionetas y camiones de diversas marcas. Venta y reparación.</p>
+                        </div>
+                        <a class="cell__go" href="#contacto" data-interest="Cajas refrigeradas" aria-label="Pedir informes de cajas refrigeradas"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                    </article>
+
+                    <article class="cell cell--elec cell--photo" data-reveal>
+                        <figure class="cell__img cell__img--bg">
+                            <img src="https://images.pexels.com/photos/38145576/pexels-photo-38145576.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024"
+                                 srcset="https://images.pexels.com/photos/38145576/pexels-photo-38145576.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/38145576/pexels-photo-38145576.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w"
+                                 sizes="(min-width: 960px) 32vw, 92vw" width="1600" height="1067" loading="lazy" decoding="async"
+                                 alt="Técnico soldando una tarjeta electrónica con un cautín">
+                        </figure>
+                        <div class="cell__body">
+                            <h3>Electrónica inverter</h3>
+                            <p>Diagnóstico y soporte para tarjetas y módulos inverter de equipos de clima y refrigeración.</p>
+                        </div>
+                        <a class="cell__go" href="#contacto" data-interest="Electrónica inverter" aria-label="Pedir informes de electrónica inverter"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                    </article>
+
+                    <article class="cell cell--power" data-reveal>
+                        <i class="ph ph-lightning cell__bigicon" aria-hidden="true"></i>
+                        <div class="cell__body">
+                            <h3>Electricidad</h3>
+                            <p>Revisión y soluciones eléctricas para que tus equipos trabajen con seguridad.</p>
+                        </div>
+                        <a class="cell__go" href="#contacto" data-interest="Electricidad" aria-label="Pedir informes de electricidad"><i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+                    </article>
+                </div>
+
+                <div class="callout" data-reveal>
+                    <p class="callout__text">¿Tu equipo ya falló o está dando señales? Cuéntanos qué marca es y qué pasa.</p>
+                    <a class="btn btn--primary btn--lg" data-wa="repair" href="#contacto" data-magnetic>
+                        <i class="ph ph-wrench" aria-hidden="true"></i><span>Mi equipo necesita atención</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════ SECTORES (pan horizontal) ═══════ -->
+        <section class="sectors" id="sectores" aria-labelledby="sect-title">
+            <div class="sectors__pin">
+                <header class="sectors__head wrap">
+                    <h2 id="sect-title" data-split>Cada negocio tiene su propio frío</h2>
+                </header>
+                <div class="sectors__viewport">
+                    <div class="sectors__track">
+                        <article class="panel panel--a">
+                            <i class="ph ph-house-line panel__ic" aria-hidden="true"></i>
+                            <h3>Hogar</h3>
+                            <p>Refrigeradores y aire acondicionado para que tu casa se sienta bien todo el año.</p>
+                        </article>
+                        <article class="panel panel--b">
+                            <i class="ph ph-fork-knife panel__ic" aria-hidden="true"></i>
+                            <h3>Restaurantes</h3>
+                            <p>Refrigeración confiable para proteger tus insumos y mantener la cocina en marcha.</p>
+                        </article>
+                        <article class="panel panel--c">
+                            <i class="ph ph-storefront panel__ic" aria-hidden="true"></i>
+                            <h3>Comercio</h3>
+                            <p>Clima y exhibición en frío para clientes cómodos y producto en su punto.</p>
+                        </article>
+                        <article class="panel panel--d">
+                            <i class="ph ph-factory panel__ic" aria-hidden="true"></i>
+                            <h3>Industria</h3>
+                            <p>Centrales, chillers y cuartos fríos para operaciones que no pueden detenerse.</p>
+                        </article>
+                        <article class="panel panel--e">
+                            <i class="ph ph-truck panel__ic" aria-hidden="true"></i>
+                            <h3>Transporte</h3>
+                            <p>Frío sobre ruedas: cajas refrigeradas para camionetas y camiones.</p>
+                        </article>
+                        <article class="panel panel--f">
+                            <i class="ph ph-graduation-cap panel__ic" aria-hidden="true"></i>
+                            <h3>Técnicos</h3>
+                            <p>Capacitación en línea para quienes mantienen funcionando el frío y el clima.</p>
+                        </article>
+                        <article class="panel panel--cta">
+                            <h3>¿Tu operación depende del frío?</h3>
+                            <p>Cuéntanos qué guardas o transportas y diseñamos la solución contigo.</p>
+                            <a class="btn btn--primary btn--lg" data-wa="cold" href="#contacto">
+                                <span>Quiero mi cuarto frío</span><i class="ph ph-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════ CAPACITACIÓN (tabs) ═══════ -->
+        <section class="learn" id="cursos" aria-labelledby="learn-title">
+            <div class="wrap learn__grid">
+                <div class="learn__main">
+                    <p class="eyebrow" data-reveal>Capacitación en línea</p>
+                    <h2 id="learn-title" data-split>Aprende de quienes lo hacen todos los días</h2>
+                    <p class="lead" data-reveal>Clases de actualización para técnicos que quieren diagnosticar mejor y trabajar con más seguridad.</p>
+
+                    <div class="tabs" role="tablist" aria-label="Áreas de capacitación" data-reveal>
+                        <button class="tab is-active" role="tab" id="tab-hvac" aria-controls="panel-hvac" aria-selected="true" data-tab="hvac" type="button">
+                            <i class="ph ph-snowflake" aria-hidden="true"></i><span>HVAC</span>
+                        </button>
+                        <button class="tab" role="tab" id="tab-elec" aria-controls="panel-elec" aria-selected="false" tabindex="-1" data-tab="elec" type="button">
+                            <i class="ph ph-circuitry" aria-hidden="true"></i><span>Electrónica</span>
+                        </button>
+                        <button class="tab" role="tab" id="tab-power" aria-controls="panel-power" aria-selected="false" tabindex="-1" data-tab="power" type="button">
+                            <i class="ph ph-lightning" aria-hidden="true"></i><span>Electricidad</span>
+                        </button>
+                    </div>
+
+                    <div class="tabpanels">
+                        <div class="tabpanel is-active" role="tabpanel" id="panel-hvac" aria-labelledby="tab-hvac" data-course="HVAC y refrigeración">
+                            <h3>HVAC y refrigeración</h3>
+                            <p>Del ciclo de refrigeración al diagnóstico de fallas en sistemas comerciales e industriales.</p>
+                            <ul class="checks">
+                                <li><i class="ph ph-check-circle" aria-hidden="true"></i>Ciclo de refrigeración y carga de refrigerante</li>
+                                <li><i class="ph ph-check-circle" aria-hidden="true"></i>Diagnóstico de fallas en equipos de clima</li>
+                                <li><i class="ph ph-check-circle" aria-hidden="true"></i>Sistemas VRF, Fan &amp; Coil y chillers</li>
+                                <li><i class="ph ph-check-circle" aria-hidden="true"></i>Cuartos fríos y refrigeración comercial</li>
+                            </ul>
+                        </div>
+                        <div class="tabpanel" role="tabpanel" id="panel-elec" aria-labelledby="tab-elec" data-course="Electrónica inverter" hidden>
+                            <h3>Electrónica inverter</h3>
+                            <p>Entiende y repara las tarjetas que controlan los equipos modernos.</p>
+                            <ul class="checks">
+                                <li><i class="ph ph-check-circle" aria-hidden="true"></i>Lectura de tarjetas y componentes</li>
+                                <li><i class="ph ph-check-circle" aria-hidden="true"></i>Diagnóstico de módulos inverter</li>
+                                <li><i class="ph ph-check-circle" aria-hidden="true"></i>Medición con multímetro y puntas</li>
+                                <li><i class="ph ph-check-circle" aria-hidden="true"></i>Soldadura y reparación segura</li>
+                            </ul>
+                        </div>
+                        <div class="tabpanel" role="tabpanel" id="panel-power" aria-labelledby="tab-power" data-course="Electricidad aplicada" hidden>
+                            <h3>Electricidad aplicada</h3>
+                            <p>Bases eléctricas sólidas para instalar y diagnosticar con seguridad.</p>
+                            <ul class="checks">
+                                <li><i class="ph ph-check-circle" aria-hidden="true"></i>Lectura de diagramas eléctricos</li>
+                                <li><i class="ph ph-check-circle" aria-hidden="true"></i>Protecciones y calibre de conductores</li>
+                                <li><i class="ph ph-check-circle" aria-hidden="true"></i>Medición de voltaje, corriente y continuidad</li>
+                                <li><i class="ph ph-check-circle" aria-hidden="true"></i>Seguridad en tableros y equipos</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <a class="btn btn--primary btn--lg" id="course-cta" data-wa="course" href="#contacto" data-magnetic>
+                        <i class="ph ph-video-camera" aria-hidden="true"></i><span>Quiero inscribirme a un curso</span>
+                    </a>
+                </div>
+
+                <div class="learn__media" aria-live="polite">
+                    <figure class="media is-active" data-for="hvac">
+                        <img src="https://images.pexels.com/photos/33925031/pexels-photo-33925031.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024"
+                             srcset="https://images.pexels.com/photos/33925031/pexels-photo-33925031.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/33925031/pexels-photo-33925031.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w"
+                             sizes="(min-width: 960px) 40vw, 92vw" width="1600" height="1067" loading="lazy" decoding="async"
+                             alt="Instructor explicando el uso de un juego de manómetros a un grupo de técnicos durante una clase práctica de aire acondicionado">
+                    </figure>
+                    <figure class="media" data-for="elec">
+                        <img src="https://images.pexels.com/photos/10699355/pexels-photo-10699355.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024"
+                             srcset="https://images.pexels.com/photos/10699355/pexels-photo-10699355.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/10699355/pexels-photo-10699355.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w"
+                             sizes="(min-width: 960px) 40vw, 92vw" width="1600" height="1091" loading="lazy" decoding="async"
+                             alt="Manos de un técnico midiendo una tarjeta de control con puntas de multímetro">
+                    </figure>
+                    <figure class="media" data-for="power">
+                        <img src="https://images.pexels.com/photos/14319099/pexels-photo-14319099.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024"
+                             srcset="https://images.pexels.com/photos/14319099/pexels-photo-14319099.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640 640w, https://images.pexels.com/photos/14319099/pexels-photo-14319099.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1024 1024w"
+                             sizes="(min-width: 960px) 40vw, 92vw" width="1600" height="844" loading="lazy" decoding="async"
+                             alt="Electricista con guantes aislantes midiendo un tablero eléctrico con un multímetro">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════ PROCESO (línea de tiempo) ═══════ -->
+        <section class="process" id="proceso" aria-labelledby="proc-title">
+            <div class="wrap">
+                <header class="sec-head sec-head--stack">
+                    <h2 id="proc-title" data-split>De tu mensaje a un equipo funcionando</h2>
+                </header>
+                <ol class="timeline">
+                    <li class="tl">
+                        <span class="tl__node"><i class="ph ph-chats-circle" aria-hidden="true"></i></span>
+                        <div class="tl__body" data-reveal>
+                            <h3>Cuéntanos tu caso</h3>
+                            <p>Escríbenos por WhatsApp con el equipo, la marca y lo que está pasando.</p>
+                        </div>
+                    </li>
+                    <li class="tl">
+                        <span class="tl__node"><i class="ph ph-magnifying-glass" aria-hidden="true"></i></span>
+                        <div class="tl__body" data-reveal>
+                            <h3>Revisamos y cotizamos</h3>
+                            <p>Analizamos la información y te proponemos la mejor solución para tu operación.</p>
+                        </div>
+                    </li>
+                    <li class="tl">
+                        <span class="tl__node"><i class="ph ph-wrench" aria-hidden="true"></i></span>
+                        <div class="tl__body" data-reveal>
+                            <h3>Instalamos o reparamos</h3>
+                            <p>Trabajo técnico limpio, con criterio de ingeniería y las herramientas correctas.</p>
+                        </div>
+                    </li>
+                    <li class="tl">
+                        <span class="tl__node"><i class="ph ph-seal-check" aria-hidden="true"></i></span>
+                        <div class="tl__body" data-reveal>
+                            <h3>Tu equipo vuelve a rendir</h3>
+                            <p>Verificamos que todo opere como debe para que sigas con lo tuyo.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ═══════ CIFRAS ═══════ -->
+        <section class="figures" aria-label="Alcance del servicio">
+            <div class="wrap">
+                <dl class="figures__list">
+                    <div class="fig" data-reveal><dt>líneas de servicio</dt><dd><span data-count="6">6</span></dd></div>
+                    <div class="fig" data-reveal><dt>sistemas de climatización</dt><dd><span data-count="4">4</span></dd></div>
+                    <div class="fig" data-reveal><dt>disciplinas en capacitación</dt><dd><span data-count="3">3</span></dd></div>
+                    <div class="fig" data-reveal><dt>aliado para frío, clima y energía</dt><dd><span data-count="1">1</span></dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <!-- ═══════ PREGUNTAS FRECUENTES ═══════ -->
+        <section class="faq" id="faq" aria-labelledby="faq-title">
+            <div class="wrap faq__grid">
+                <header class="sec-head sec-head--stack">
+                    <h2 id="faq-title" data-split>Lo que más nos preguntan</h2>
+                    <p class="lead" data-reveal>¿No ves tu duda? Escríbenos y la resolvemos por chat.</p>
+                </header>
+                <div class="faq__list" data-stagger>
+                    <details data-reveal>
+                        <summary><span>¿Qué sistemas de aire acondicionado venden y reparan?</span><i class="ph ph-plus" aria-hidden="true"></i></summary>
+                        <div class="faq__a"><p>Trabajamos con sistemas VRF, Fan &amp; Coil, centrales y enfriadores de agua (chillers), además de equipos para casa y comercio.</p></div>
+                    </details>
+                    <details data-reveal>
+                        <summary><span>¿Atienden refrigeración para restaurantes y negocios?</span><i class="ph ph-plus" aria-hidden="true"></i></summary>
+                        <div class="faq__a"><p>Sí. Vendemos y reparamos refrigeradores para hogar, restaurantes y uso industrial.</p></div>
+                    </details>
+                    <details data-reveal>
+                        <summary><span>¿Reparan equipos de frío para camionetas y camiones?</span><i class="ph ph-plus" aria-hidden="true"></i></summary>
+                        <div class="faq__a"><p>Sí. Vendemos y reparamos equipos de refrigeración para cajas de camionetas y camiones de diversas marcas.</p></div>
+                    </details>
+                    <details data-reveal>
+                        <summary><span>¿Cómo pido una cotización?</span><i class="ph ph-plus" aria-hidden="true"></i></summary>
+                        <div class="faq__a"><p>Llena el formulario de contacto o escríbenos por WhatsApp con el equipo, la marca y lo que necesitas. Te respondemos con una propuesta.</p></div>
+                    </details>
+                    <details data-reveal>
+                        <summary><span>¿Los cursos para técnicos son en línea?</span><i class="ph ph-plus" aria-hidden="true"></i></summary>
+                        <div class="faq__a"><p>Sí. Impartimos clases de actualización en línea para técnicos de HVAC, electrónica y electricidad.</p></div>
+                    </details>
+                    <details data-reveal>
+                        <summary><span>¿Dónde están ubicados?</span><i class="ph ph-plus" aria-hidden="true"></i></summary>
+                        <div class="faq__a"><p>Estamos en Monterrey, Nuevo León. Escríbenos con tu ubicación y coordinamos la atención.</p></div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════ CONTACTO ═══════ -->
+        <section class="contact" id="contacto" aria-labelledby="contact-title">
+            <div class="wrap contact__grid">
+                <div class="contact__info">
+                    <p class="eyebrow" data-reveal>Hablemos</p>
+                    <h2 id="contact-title" data-split>Cuéntanos qué necesitas</h2>
+                    <p class="lead" data-reveal>Déjanos tus datos y abrimos una conversación por WhatsApp con tu solicitud ya redactada.</p>
+
+                    <ul class="contact__list" data-stagger>
+                        <li data-reveal>
+                            <span class="ci"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i></span>
+                            <div><small>WhatsApp</small><a data-wa="general" href="#contacto"><span data-wa-display>Chat directo con un asesor</span></a></div>
+                        </li>
+                        <li data-reveal>
+                            <span class="ci"><i class="ph ph-envelope-simple" aria-hidden="true"></i></span>
+                            <div><small>Correo</small><a href="mailto:ingr_havac_mty@ingrhvacmonterrey.com.mx">ingr_havac_mty@ingrhvacmonterrey.com.mx</a></div>
+                        </li>
+                        <li data-reveal>
+                            <span class="ci"><i class="ph ph-globe" aria-hidden="true"></i></span>
+                            <div><small>Sitio web</small><a href="https://ingrhvacmonterrey.com.mx">ingrhvacmonterrey.com.mx</a></div>
+                        </li>
+                        <li data-reveal>
+                            <span class="ci"><i class="ph ph-map-pin" aria-hidden="true"></i></span>
+                            <div><small>Ubicación</small><span>Monterrey, Nuevo León, México</span></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact__form" data-reveal>
+                    <form id="wa-form" novalidate>
+                        <h3>Solicita tu cotización</h3>
+                        <p class="form__hint">Los campos con asterisco son necesarios.</p>
+
+                        <div class="field">
+                            <label for="f-name">Nombre completo *</label>
+                            <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="err-name" placeholder="Ej. Laura Treviño">
+                            <p class="field__err" id="err-name" role="alert"></p>
+                        </div>
+                        <div class="field">
+                            <label for="f-phone">Teléfono</label>
+                            <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Ej. 81 0000 0000">
+                        </div>
+                        <div class="field">
+                            <label for="f-interest">¿Qué necesitas? *</label>
+                            <div class="select">
+                                <select id="f-interest" name="interest" required aria-describedby="err-interest">
+                                    <option value="" disabled selected>Selecciona una opción</option>
+                                    <option>Aire acondicionado</option>
+                                    <option>Refrigeración</option>
+                                    <option>Cuarto frío</option>
+                                    <option>Cajas refrigeradas</option>
+                                    <option>Electrónica inverter</option>
+                                    <option>Electricidad</option>
+                                    <option>Curso de capacitación</option>
+                                    <option>Otro</option>
+                                </select>
+                                <i class="ph ph-caret-down" aria-hidden="true"></i>
+                            </div>
+                            <p class="field__err" id="err-interest" role="alert"></p>
+                        </div>
+                        <div class="field">
+                            <label for="f-msg">Cuéntanos más</label>
+                            <textarea id="f-msg" name="message" rows="4" placeholder="Equipo, marca, falla o proyecto que tienes en mente"></textarea>
+                        </div>
+
+                        <button class="btn btn--primary btn--lg btn--block" type="submit" data-magnetic>
+                            <i class="ph ph-whatsapp-logo" aria-hidden="true"></i><span id="submit-label">Enviar mi solicitud por WhatsApp</span>
+                        </button>
+                        <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ═══════ FOOTER ═══════ -->
+    <footer class="footer">
+        <div class="wrap">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <a class="brand" href="#inicio" aria-label="INGRHVAC Monterrey, ir al inicio">
+                        <svg class="brand__mark" width="40" height="40" aria-hidden="true"><use href="#mark"/></svg>
+                        <span class="wordmark"><b>INGR</b>HVAC<small>Monterrey</small></span>
+                    </a>
+                    <p>Venta y reparación de refrigeración y aire acondicionado, con formación técnica en línea.</p>
+                </div>
+                <nav class="footer__col" aria-label="Servicios">
+                    <h4>Servicios</h4>
+                    <a href="#servicios">Aire acondicionado</a>
+                    <a href="#servicios">Refrigeración</a>
+                    <a href="#servicios">Cuartos fríos</a>
+                    <a href="#servicios">Cajas refrigeradas</a>
+                </nav>
+                <nav class="footer__col" aria-label="Más información">
+                    <h4>Más</h4>
+                    <a href="#ciclo">Cómo funciona</a>
+                    <a href="#cursos">Capacitación</a>
+                    <a href="#proceso">Proceso</a>
+                    <a href="#faq">Preguntas</a>
+                </nav>
+                <div class="footer__col">
+                    <h4>Contacto</h4>
+                    <a href="mailto:ingr_havac_mty@ingrhvacmonterrey.com.mx">ingr_havac_mty@ingrhvacmonterrey.com.mx</a>
+                    <a href="https://ingrhvacmonterrey.com.mx">ingrhvacmonterrey.com.mx</a>
+                    <a data-wa="general" href="#contacto">WhatsApp</a>
+                </div>
+            </div>
+            <p class="footer__giant" aria-hidden="true">INGRHVAC</p>
+            <div class="footer__bottom">
+                <p>© <span id="year">2026</span> INGRHVAC Monterrey. Todos los derechos reservados.</p>
+                <p>Monterrey, Nuevo León, México</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a class="wa-float" data-wa="general" href="#contacto" aria-label="Escribir por WhatsApp">
+        <span class="wa-float__tip">¿Hablamos?</span>
+        <i class="ph ph-whatsapp-logo" aria-hidden="true"></i>
+    </a>
+
+    <!-- Animación: GSAP + ScrollTrigger (pin y scrub) y Lenis (scroll suave) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+    <script src="app.js" defer></script>
+</body>
+</html>
